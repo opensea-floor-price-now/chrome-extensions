@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-typescript-starter",
+  "name": "opensea-floor-price-now-chrome-extension",
   "version": "1.0.0",
-  "description": "chrome-extension-typescript-starter",
+  "description": "This is a chrome extension used to display the floor price of opensea",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chibat/chrome-extension-typescript-starter.git"
+    "url": "https://github.com/opensea-floor-price-now/chrome-extensions"
   },
   "dependencies": {
     "react": "^17.0.1",
