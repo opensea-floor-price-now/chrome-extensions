@@ -45,6 +45,11 @@
     "webpack-cli": "^4.0.0",
     "webpack-merge": "^5.0.0"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": "yarn lint"
   }
