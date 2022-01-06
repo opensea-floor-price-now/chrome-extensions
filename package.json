@@ -6,6 +6,9 @@
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
     "build": "webpack --config webpack/webpack.prod.js",
+    "lint": "eslint -c ./.eslintrc.js --ext .ts,.tsx,.js,.jsx",
+    "pre-commit": "lint-staged",
+    "prepare": "husky install",
     "clean": "rimraf dist",
     "test": "npx jest",
     "style": "prettier --write \"src/**/*.{ts,tsx}\""
@@ -41,5 +44,8 @@
     "webpack": "^5.0.0",
     "webpack-cli": "^4.0.0",
     "webpack-merge": "^5.0.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": "yarn lint"
   }
 }
