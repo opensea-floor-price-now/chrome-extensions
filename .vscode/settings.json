@@ -1,6 +1,17 @@
 {
     "typescript.tsdk": "./node_modules/typescript/lib",
     "files.eol": "\n",
+    "prettier.configPath": ".prettierrc.js",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        ​"source.fixAll.eslint": true,
+        ​"source.fixAll.tslint": true,
+        "source.fixAll.stylelint": true,
+    },
+    "editor.formatOnSave": true,
+    "eslint.options": {
+        ​"extensions": [".js", ".jsx", ".vue", ".ts", ".tsx"]
+    },
     "json.schemas": [
         {
             "fileMatch": [

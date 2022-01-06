@@ -1,0 +1,19 @@
+# Ignore artifacts:
+dist
+node_modules
+.github
+.vscode
+public
+src/__tests__/*
+webpack
+
+# Ignore all HTML files:
+*.html
+.gitignore
+.prettierrc.js
+jest.config.js
+.package.json
+.package-lock.json
+tsconfig.json
+yarn.lock
+*.md
