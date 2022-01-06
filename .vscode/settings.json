@@ -8,7 +8,7 @@
         ​"source.fixAll.tslint": true,
         "source.fixAll.stylelint": true,
     },
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "eslint.options": {
         ​"extensions": [".js", ".jsx", ".vue", ".ts", ".tsx"]
     },
